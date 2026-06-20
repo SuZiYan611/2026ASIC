@@ -1,0 +1,29 @@
+# Build artifacts
+build/
+obj_dir/
+top_basys3_obj/
+tb_top_basys3_obj/
+
+# Waveforms
+*.fst
+*.vcd
+
+# Vivado logs
+*.log
+*.jou
+*.str
+
+# Vivado project build outputs
+vivado-project-files/reaction_meter_xzy/reaction_meter_xzy.cache/
+vivado-project-files/reaction_meter_xzy/reaction_meter_xzy.runs/
+vivado-project-files/reaction_meter_xzy/reaction_meter_xzy.hw/
+vivado-project-files/reaction_meter_xzy/reaction_meter_xzy.ip_user_files/
+
+# Surfer
+.surfer/
+
+# Cargo
+/target
+
+# Librelane
+librelane/runs/
